@@ -1,51 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
 
-body {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url("desp.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
+* {
+    font-family: 'Jura';
 }
 
-.style {
-    width: 60vh;
+.container{
     height: 100vh;
-    background: rgb(26, 22, 23, 0.9);
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    }
+
+.mybtns {
+    padding: 20px;
+}
+
+.mybtns button{
+    font-weight: bold;
     padding: 5px;
-    border-radius: 4px;
-    backdrop-filter: blur(4px) ;
 }
 
+input {
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
 
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12, #btn13, #btn14, #btn15, #btn16, #btn17, #btn18, #btn19, #btn20  {
-    color: azure;
-    width: 100%;
-    height: 5vh;
-    background: rgba(236, 218, 115, 0.9);
+}
+
+.displaybox {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(48, 46, 46);
+    margin: 10px;
+    border-radius: 5px;
+
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
-    padding: 20px;
-    border-radius: 4px;
 }
 
-#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover, #btn9:hover, #btn10:hover, #btn11:hover, #btn12:hover, #btn13:hover, #btn14:hover, #btn15:hover, #btn16:hover, #btn17:hover, #btn18:hover, #btn19:hover, #btn20:hover {
-    color: rgb(251, 241, 180);
-    width: 100%;
-    height: 5vh;
-    background: rgba(150, 124, 112, 0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 4px;
+.displaybox h3 {
+    color: white;
+    font-size: 2rem;
 }
-
